@@ -1,0 +1,46 @@
+*{
+    font-family: 'PT Sans', sans-serif;
+    padding:0;
+    margin:0;
+    border:0
+}
+header{
+    background-color: #06113C;
+}
+body{
+  background-color: #DDDDDD;
+}
+
+#header-logo{
+    width:74px;
+    height:54px;
+}
+#header-msg{
+    font-size: 35px;
+    color: white;
+}
+#btnOne{
+    background-color:#06113C;
+    color:white;
+}
+#btnOne:focus,#btnOne:hover{
+    box-shadow: none;
+    outline:none;
+}
+
+#tableHead{
+    background-color:#06113C;
+}
+#searchInput{
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    border-bottom: 1px solid #ced4da;
+}
+#searchInput:hover,#searchInput:focus{
+    box-shadow: none;
+    outline:none;
+}
+.text{
+  font-size: 50px;
+  font-family: 'Nunito', sans-serif;
+}
